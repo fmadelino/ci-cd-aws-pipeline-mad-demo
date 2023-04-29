@@ -18,6 +18,7 @@ export class CiCdAwsPipelineMadDemoStack extends cdk.Stack {
                    'npx cdk synth']
       })
     });
+  }
     
 
   //   const testingStage = pipeline.addStage(new MyPipelineAppStage(this, "test", {
@@ -54,3 +55,4 @@ export class CiCdAwsPipelineMadDemoStack extends cdk.Stack {
 //     // });
 //   }
 // }
+//
